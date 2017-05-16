@@ -1,37 +1,39 @@
 Numerical Linear Algebra for Coders
 
-This course is being offered in USF's MSAN program, summer 2017.  The course is taught in Python, using libraries such as scikit-learn and numpy for most lessons, as well as numba and pytorch in a few lessons. 
+This course is being offered in USF's MSAN program, summer 2017.  The course is taught in Python, using libraries such as scikit-learn and numpy for most lessons, as well as numba and pytorch in a few lessons.
+
+The following listing links to the notebooks in this repository, rendered through the [nbviewer](http://nbviewer.jupyter.org) service:
 
 Topics Covered:
-1. [Foundations](nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb)
+### [1. Foundations](http://nbviewer.jupyter.org/github/fastai/numerical-linear-algebra/blob/master/nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb)
   - [Floating Point Arithmetic](http://nbviewer.jupyter.org/github/fastai/numerical-linear-algebra/blob/master/nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb#Floating-Point-Arithmetic)
   - [Condition & Stability](http://nbviewer.jupyter.org/github/fastai/numerical-linear-algebra/blob/master/nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb#Conditioning-and-Stability)
   - [Memory/Locality]()
   - [Parallelization & Vectorization]()
   - [BLAS & LAPACK]()
-2. [Topic Modeling](nbs/2.%20Topic%20Modeling.ipynb): using newsgroups dataset
+### [2. Topic Modeling](): using newsgroups dataset
   - Topic Frequency-Inverse Document Frequency (TF-IDF)
   - Singular Value Decomposition (SVD)
   - Non-negative Matrix Factorization (NMF)
   - Stochastic Gradient Descent (SGD)
   - Intro to PyTorch
   - Truncated SVD
-3. [Eigen Decompositions]: using DBpedia dataset
+### [3. Eigen Decompositions](): using DBpedia dataset
   - Power Method
   - QR Algorithm
   - Arnoldi Iteration
-4. [Vectorization & Compiling to C]
-5. [Least Squares Linear Regression]: using diabetes dataset
+### [4. Vectorization & Compiling to C]()
+### [5. Least Squares Linear Regression](): using diabetes dataset
   - Linear regression
   - Polynomial Features
   - Speeding up with Numba
   - Regularization and Noise
   - Implementing linear regression 4 ways
-6. [QR Factorization]
+### [6. QR Factorization]()
   - Gram-Schmidt
   - Householder
   - Stability
-7. Background Removal: surveillance video
+### [7. Background Removal](): surveillance video
   - Randomized SVD
   - LU factorization
 
