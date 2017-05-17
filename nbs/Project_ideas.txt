@@ -1,0 +1,21 @@
+Suggestions for Writing Topics:
+
+- Algorithms to research and implement:
+  -- Cholesky Factorization
+  -- Gauss-Legendre Quadrature
+  -- Conjugate Gradient
+  -- Rayleigh Quotient Iteration 
+  -- Power Method with shifts and deflation
+  -- QR algorithm with Wilkinson shifts
+  -- Golub-Kahan bidiagonalization with Householder reflectors
+  -- Divide-and-conquer eigenvalue algorithm (Cuppen)
+  -- GMRES (generalized minimal residuals)
+  -- Sparse NMF
+  -- Randomized anything
+  -- Feel free to ask me about additional ideas
+  
+- Implement an algorithm of your choice in PyTorch
+
+- Take an algorithm and use Numba or Cython to speed up.
+
+- Find an interesting paper (related to matrices). Summarize it and implement it.
