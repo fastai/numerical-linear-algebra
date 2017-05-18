@@ -33,7 +33,7 @@ Another application of SVD is to identify the people and remove the background o
   
 ### 4. Compressed Sensing with Robust Regression
 Compressed sensing is critical to allowing CT scans with lower radiation-- the image can be reconstructed with less data.  Here we will learn the technique and apply it to CT images.
-  -
+  - L1 regularization
 
 ### 5. Predicting Health Outcomes with Linear Regressions
   - Linear regression
