@@ -2,7 +2,7 @@
 
 This course is focused on the question: **How do we do matrix computations with acceptable speed and acceptable accuracy?**
 
-It is being offered in USF's MSAN program, summer 2017.  The course is taught in Python, using libraries such as scikit-learn and numpy for most lessons, as well as numba and pytorch in a few lessons.
+This course is being taught in [University of San Francisco's MSAN](https://www.usfca.edu/arts-sciences/graduate-programs/analytics) program, summer 2017.  The course is taught in Python with Jupyter Notebooks, using libraries such as scikit-learn and numpy for most lessons, as well as numba and pytorch in a few lessons.
 
 The following listing links to the notebooks in this repository, rendered through the [nbviewer](http://nbviewer.jupyter.org) service:
 
