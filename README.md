@@ -9,41 +9,45 @@ The following listing links to the notebooks in this repository, rendered throug
 Topics Covered:
 ### [1. Foundations](http://nbviewer.jupyter.org/github/fastai/numerical-linear-algebra/blob/master/nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb)
 We start with a high level overview of some foundational concepts in numerical linear algebra.
-  - [Floating Point Arithmetic](http://nbviewer.jupyter.org/github/fastai/numerical-linear-algebra/blob/master/nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb#Floating-Point-Arithmetic)
-  - [Condition & Stability](http://nbviewer.jupyter.org/github/fastai/numerical-linear-algebra/blob/master/nbs/1.%20Floating%20Point%2C%20Stability%2C%20Memory.ipynb#Conditioning-and-Stability)
-  - [Memory/Locality]()
-  - [Parallelization & Vectorization]()
-  - [BLAS & LAPACK]()
+  - Matrix and Tensor Products
+  - Matrix Decompositions
+  - Accuracy
+  - Memory use
+  - Speed
+  - Parallelization & Vectorization
+
 ### [2. Topic Modeling]()
-We will use the newsgroups dataset to try to identify the topics of different posts.  We use a term-document matrix that represents the frequency of the vocabulary in the documents.  We factor it using NMF, and then with SVD.  We will see that SVD is deeply connected to the problem of finding eigenvalues.
+We will use the newsgroups dataset to try to identify the topics of different posts.  We use a term-document matrix that represents the frequency of the vocabulary in the documents.  We factor it using NMF, and then with SVD.
   - Topic Frequency-Inverse Document Frequency (TF-IDF)
   - Non-negative Matrix Factorization (NMF)
   - Stochastic Gradient Descent (SGD)
   - Intro to PyTorch
   - Singular Value Decomposition (SVD)
   - Truncated SVD
-### [3. Eigen Decompositions]()
-In the previous lesson, we saw that SVD is connected to the eigen decomposition, so we will now learn how to calculate eigenvalues for a large matrix.  We will use DBpedia data, a large dataset of Wikipedia links, because here the principal eigenvector gives the relative importance of different Wikipedia pages (this is the basic idea of Google's PageRank algorithm).  We will look at 3 different methods for calculating eigenvectors, or increasing complexity (and increasing usefulness!).
-  - Power Method
-  - QR Algorithm
-  - Arnoldi Iteration
-### [4. Vectorization & Compiling to C]()
-### [5. Least Squares Linear Regression](): using diabetes dataset
+  
+### 3. Background Removal
+Another application of SVD is to identify the people and remove the background of a surveillance video.  We will cover robust PCA, which uses randomized SVD.  And Randomized SVD uses the LU factorization.
+  - Robust PCA
+  - Randomized SVD
+  - LU factorization
+
+### 4. Least Squares Linear Regression
   - Linear regression
   - Polynomial Features
   - Speeding up with Numba
   - Regularization and Noise
   - Implementing linear regression 4 ways
-### [6. QR Factorization]()
+
+### 5. Eigen Decompositions
+In the previous lesson, we saw that SVD is connected to the eigen decomposition, so we will now learn how to calculate eigenvalues for a large matrix.  We will use DBpedia data, a large dataset of Wikipedia links, because here the principal eigenvector gives the relative importance of different Wikipedia pages (this is the basic idea of Google's PageRank algorithm).  We will look at 3 different methods for calculating eigenvectors, or increasing complexity (and increasing usefulness!).
+  - Power Method
+  - QR Algorithm
+  - Arnoldi Iteration
+
+### 6. QR Factorization
   - Gram-Schmidt
   - Householder
   - Stability
-### [7. Background Removal]()
-We want to identify the people and remove the background of a surveillance video.  We will cover robust PCA, and 
-  - PCA
-  - Robust PCA
-  - Randomized SVD
-  - LU factorization
 
 <hr>
 
