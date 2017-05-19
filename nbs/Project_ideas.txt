@@ -11,6 +11,7 @@ Suggestions for Writing Topics:
   -- Divide-and-conquer eigenvalue algorithm (Cuppen)
   -- GMRES (generalized minimal residuals)
   -- Sparse NMF
+  -- Monte Carlo Methods
   -- Randomized anything
   -- Feel free to ask me about additional ideas
   
@@ -19,3 +20,5 @@ Suggestions for Writing Topics:
 - Take an algorithm and use Numba or Cython to speed up.
 
 - Find an interesting paper (related to matrices). Summarize it and implement it.
+
+- Look at the Matrix Factorization Jungle for ideas: https://sites.google.com/site/igorcarron2/matrixfactorizations
