@@ -12,13 +12,15 @@ Suggestions for Writing Topics:
   -- GMRES (generalized minimal residuals)
   -- Sparse NMF
   -- Monte Carlo Methods
-  -- Randomized anything
   -- Feel free to ask me about additional ideas
   
-- Implement an algorithm of your choice in PyTorch
+- Speed up an algorithm of your choice using one or more of...:
+  -- The GPU with PyTorch
+  -- Numba or Cython
+  -- Parallelization
+  -- Randomized projections
 
-- Take an algorithm and use Numba or Cython to speed up.
-
-- Find an interesting paper (related to matrices). Summarize it and implement it.
+- Find an interesting paper (related to linear algebra). Summarize it and implement it. Some interesting ideas in:
+  -- https://arxiv.org/abs/1608.04481
 
 - Look at the Matrix Factorization Jungle for ideas: https://sites.google.com/site/igorcarron2/matrixfactorizations
