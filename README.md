@@ -1,5 +1,7 @@
 ## Computational Linear Algebra for Coders
 
+<a href="https://notebooks.azure.com/import/gh/fastai/numerical-linear-algebra"><img src="https://notebooks.azure.com/launch.png" /></a>
+
 This course is focused on the question: **How do we do matrix computations with acceptable speed and acceptable accuracy?**
 
 This course was taught in the [University of San Francisco's Masters of Science in Analytics](https://www.usfca.edu/arts-sciences/graduate-programs/analytics) program, summer 2017 (for graduate students studying to become data scientists).  The course is taught in Python with Jupyter Notebooks, using libraries such as Scikit-Learn and Numpy for most lessons, as well as Numba (a library that compiles Python to C for faster performance) and PyTorch (an alternative to Numpy for the GPU) in a few lessons.
